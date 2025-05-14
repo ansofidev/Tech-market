@@ -1,0 +1,15 @@
+@use 'tailwindcss';
+@use './config/variables' as *;
+@use './config/root' as *;
+@use './config/dark' as *;
+@use './base/reset' as *;
+
+//НАСТРОЙКИ слайдеров под грид (глобально)
+.swiper-slide {
+  flex-shrink: 0;
+  min-width: 272px;
+
+  @media (max-width: 640px) {
+    min-width: auto;
+  }
+}

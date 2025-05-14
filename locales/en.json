@@ -1,0 +1,275 @@
+{
+  "header": {
+    "button": {
+      "signIn": "Sign In"
+    },
+    "navItem": {
+      "home": "Home",
+      "phones": "Phones",
+      "tablets": "Tablets",
+      "accessories": "Accessories"
+    },
+    "mobileSidebar": {
+      "closeMenu": "Close menu",
+      "goToFavorites": "Go to favorites",
+      "button": {
+        "signIn": "Sign In",
+        "logOut": "Log Out"
+      }
+    }
+  },
+  "welcomeModal": {
+    "welcome": "Welcome!",
+    "register": "Register now to get",
+    "discount": "5% off",
+    "firstOrder": "your first order!",
+    "button": {
+      "later": "Maybe Later",
+      "register": "Register Now"
+    }
+  },
+  "breadcrumb": {
+    "label": "Breadcrumb",
+    "phones": "Phones",
+    "tablets": "Tablets",
+    "accessories": "Accessories",
+    "contact": "Contact",
+    "rights": "Rights"
+  },
+  "signUpForm": {
+    "error": {
+      "name": "First name must be at least 3 characters long.",
+      "surname": "Last name must be at least 2 characters long.",
+      "unknown": "An unknown error occurred. Please try again later."
+    },
+    "label": {
+      "signUp": "Sign Up",
+      "signIn": "Sign In"
+    },
+    "placeholder": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "password": "Password"
+    },
+    "button": {
+      "signUp": "Sign Up",
+      "signIn": "Sign In",
+      "signInWithGoogle": "Sign In with Google"
+    },
+    "text": {
+      "alreadyHaveAccount": "Already have an account?",
+      "dontHaveAccount": "Don't have an account?"
+    },
+    "link": {
+      "signIn": "Sign In",
+      "create": "Create one"
+    }
+  },
+  "signInForm": {
+    "error": {
+      "unknown": "An unknown error occurred. Please try again later."
+    },
+    "label": {
+      "signIn": "Sign In"
+    },
+    "placeholder": {
+      "email": "Email",
+      "password": "Password"
+    },
+    "button": {
+      "signIn": "Sign In"
+    }
+  },
+  "userMenu": {
+    "button": {
+      "logOut": "Log Out"
+    }
+  },
+  "brandNewSlider": {
+    "label": "Brand new models"
+  },
+  "footer": {
+    "gitub": "GitHub",
+    "contacts": "Contacts",
+    "rights": "Rights",
+    "backToTop": "Back to top"
+  },
+  "hotPricesSlider": {
+    "label": "Hot prices"
+  },
+  "productCard": {
+    "toast": {
+      "addedToFavorites": "added to favorites",
+      "removedFromFavorites": "removed from favorites",
+      "addedToCart": "added to cart",
+      "removedFromCart": "removed from cart"
+    },
+    "characteristics": {
+      "screen": "Screen",
+      "capacity": "Capacity",
+      "ram": "RAM"
+    },
+    "button": {
+      "addToCart": "Add to Cart",
+      "inCart": "In Cart"
+    }
+  },
+  "shopCategories": {
+    "label": "Shop by Category",
+    "phones": "Mobile phones",
+    "tablets": "Tablets",
+    "accessories": "Accessories",
+    "models_one": "{{count}} model",
+    "models_other": "{{count}} models"
+  },
+  "youMayLike": {
+    "label": "You may also like"
+  },
+  "accessoriesPageTemplate": {
+    "dropdown_sort": {
+      "label": "Sort by",
+      "newest": "Newest",
+      "oldest": "Oldest",
+      "cheapest": "Cheapest",
+      "expensive": "Most Expensive"
+    },
+    "dropdown_amount": {
+      "label": "Items per page"
+    },
+    "label": "Accessories",
+    "models_one": "{{count}} model",
+    "models_other": "{{count}} models"
+  },
+  "cartPageTemplate": {
+    "title": "Cart",
+    "empty": {
+      "title": "No items in cart 🛒",
+      "text": "Add some products to your cart to see them here.",
+      "button": {
+        "goToShop": "Browse products"
+      }
+    },
+    "discount": "{{count}}% discount applied",
+    "registerForDiscount": "Sign up to get {{count}}% off your first order!",
+    "button": {
+      "checkout": "Checkout"
+    },
+    "totalPrice_one": "Total price for {{count}} item",
+    "totalPrice_other": "Total price for {{count}} items"
+  },
+  "favouritesPageTemplate": {
+    "title": "Favorites",
+    "models_one": "{{count}} item",
+    "models_other": "{{count}} items",
+    "empty": {
+      "title": "Your favourites list is empty 👀",
+      "text": "Add products to your favorites to see them here."
+    }
+  },
+  "homePageTemplate": {
+    "greeting": "Welcome to {{storeName}} store!"
+  },
+  "itemCardTemplate": {
+    "toast": {
+      "addedToFavorites": "added to favorites",
+      "removedFromFavorites": "removed from favorites",
+      "addedToCart": "added to cart",
+      "removedFromCart": "removed from cart"
+    },
+    "noImage": "Images not available",
+    "availableColors": "Available colors",
+    "selectCapacity": "Select capacity",
+    "specs": {
+      "screen": "Screen",
+      "resolution": "Resolution",
+      "processor": "Processor",
+      "ram": "RAM"
+    },
+    "aboutProduct": "About product",
+    "techSpecs": {
+      "label": "Tech specs",
+      "screen": "Screen",
+      "resolution": "Resolution",
+      "processor": "Processor",
+      "ram": "RAM",
+      "memory": "Built-in memory",
+      "camera": "Camera",
+      "zoom": "Zoom",
+      "cell": "Cell"
+    }
+  },
+  "phonesPageTemplate": {
+    "dropdown_sort": {
+      "label": "Sort by",
+      "newest": "Newest",
+      "oldest": "Oldest",
+      "cheapest": "Cheapest",
+      "expensive": "Most Expensive"
+    },
+    "dropdown_amount": {
+      "label": "Items per page"
+    },
+    "title": "Mobile Phones",
+    "models_one": "{{count}} model",
+    "models_other": "{{count}} models"
+  },
+  "tabletsPageTemplate": {
+    "dropdown_sort": {
+      "label": "Sort by",
+      "newest": "Newest",
+      "oldest": "Oldest",
+      "cheapest": "Cheapest",
+      "expensive": "Most Expensive"
+    },
+    "dropdown_amount": {
+      "label": "Items per page"
+    },
+    "title": "Tablets",
+    "models_one": "{{count}} model",
+    "models_other": "{{count}} models"
+  },
+  "checkoutPage": {
+    "modal": {
+      "title": "Thank you for your purchase!",
+      "button": {
+        "goToHome": "Go to Home"
+      }
+    },
+    "button": {
+      "checkout": "Checkout"
+    },
+    "form": {
+      "cardNumber": {
+        "label": "Card Number",
+        "placeholder": "XXXX-XXXX-XXXX-XXXX"
+      },
+      "cardHolder": {
+        "label": "Card Holder",
+        "placeholder": "John Doe"
+      },
+      "expiry": {
+        "label": "Expiry Date",
+        "placeholder": "MM/YY"
+      },
+      "cvc": {
+        "label": "CVC",
+        "placeholder": "XXX"
+      },
+      "button": {
+        "purchase": "Purchase"
+      }
+    }
+  },
+  "contactsPage": {
+    "title": "Our team"
+  },
+  "rightsPage": {
+    "message": "This project was proudly created by the PlugMeHard© Team for educational and showcase purposes.",
+    "reserved": "All rights reserved."
+  },
+  "settingsDropdown": {
+    "theme": "Theme",
+    "language": "Language"
+  }
+}

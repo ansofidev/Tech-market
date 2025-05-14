@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'Mont';
+  src: url('/fonts/Mont-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MontBold';
+  src: url('/fonts/Mont-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MontSemiBold';
+  src: url('/fonts/Mont-SemiBold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Mont', sans-serif;
+}
+@import 'tailwindcss';
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+html.dark,
+html.dark body {
+  background-color: whitesmoke !important;
+  color: black !important;
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5,
+html.dark h6 {
+  color: #323542 !important;
+}
+
+html.dark {
+  background-color: #a378ff !important;
+  color: black !important;
+}
+
+html.dark header,
+html.dark footer {
+  background-color: #a378ff !important;
+  color: white !important;
+}
+
+html.dark #mobile-sidebar {
+  background-color: #a378ff;
+}
+
+html.dark #mobile_links {
+  color: white;
+}
+
+html.dark #header-link {
+  color: white;
+}
+
+html.dark #header-link:hover {
+  color: #323542;
+}
+
+html.dark #nav-item {
+  color: lightgray;
+}
+
+html.dark #lang {
+  color: white;
+}
+
+html.dark #lang:hover {
+  color: #323542;
+}
+
+html.dark #user {
+  color: white;
+}
+
+html.dark #user:hover {
+  color: #323542;
+}
+
+html.dark [id^='capacityButton-'] {
+  color: black !important;
+}
+
+html.dark [id^='capacityButton-']:hover {
+  background-color: lightgray;
+}
+
+html.dark #nav-item:hover {
+  color: white;
+}
+
+html.dark #nav-item:active {
+  color: white;
+}
+
+html.dark #cards {
+  background-color: lightgray !important;
+}
+
+html.dark #phonesPageTitle,
+html.dark #tabletsPageTitle,
+html.dark #accessoriesPageTitle,
+html.dark #favPageTitle {
+  color: black;
+}
+
+html.dark #itemPageContent {
+  background-color: whitesmoke;
+}
+
+html.dark #itemPageCapacity {
+  color: black;
+}
+
+html.dark #breadcrumb-nav {
+  color: black;
+  background-color: whitesmoke;
+}
+html.dark #breadcrumb-home-link,
+html.dark [id^='breadcrumb-link-'] {
+  color: black;
+}
+html.dark #breadcrumb-home-link:hover,
+html.dark [id^='breadcrumb-link-']:hover {
+  color: gray;
+}
+html.dark [id^='breadcrumb-current-'],
+html.dark [id^='breadcrumb-separator-'],
+html.dark #breadcrumb-home-separator {
+  color: gray;
+}
+
+html.dark #contact-page {
+  background-color: whitesmoke;
+}
+
+html.dark #contact-page-user {
+  background-color: lightgray;
+}
+
+html.dark #rights-page {
+  background-color: whitesmoke;
+}
+
+html.dark #righs-page-text {
+  color: black;
+}

@@ -1,0 +1,11 @@
+@use '@/styles/mixin/mixin.scss' as m;
+
+.cartPage {
+  @include m.content-padding-inline;
+  @include m.page-grid;
+
+  & {
+    padding-top: 24px;
+    row-gap: 40px;
+  }
+}

@@ -1,0 +1,10 @@
+@use '@/styles/mixin/mixin.scss' as m;
+
+.brandNew {
+  @include m.page-grid;
+  @include m.content-padding-inline;
+
+  & {
+    row-gap: 24px;
+  }
+}
